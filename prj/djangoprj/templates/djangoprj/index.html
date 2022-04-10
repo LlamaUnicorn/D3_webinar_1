@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+<html>
+
+<head><title> It's page {{ name }} </title></head>
+<body>
+
+<h1>{{ name }}</h1>
+
+{% block name %}
+# Блок из другой страницы
+{% endblock name %}
+
+</body>
+</html>
